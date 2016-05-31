@@ -1,0 +1,707 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3A96C3D4C91F9F598661A8E2 /* libPods-IPv6Test.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FF6BB116C1DCC71C96BE61A1 /* libPods-IPv6Test.a */; };
+		44FF16D8FCD63556EF628F80 /* libPods-IPv6TestUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F1D6F4B1B3941CF69DECA578 /* libPods-IPv6TestUITests.a */; };
+		83CECB3E46BA1496B0D99A66 /* libPods-IPv6TestTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AB3F819B311DDB805BE39A43 /* libPods-IPv6TestTests.a */; };
+		AA6CB0F61CE31505005F0A35 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AA6CB0F51CE31505005F0A35 /* main.m */; };
+		AA6CB0F91CE31505005F0A35 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AA6CB0F81CE31505005F0A35 /* AppDelegate.m */; };
+		AA6CB0FC1CE31505005F0A35 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AA6CB0FB1CE31505005F0A35 /* ViewController.m */; };
+		AA6CB0FF1CE31505005F0A35 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA6CB0FD1CE31505005F0A35 /* Main.storyboard */; };
+		AA6CB1011CE31505005F0A35 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA6CB1001CE31505005F0A35 /* Assets.xcassets */; };
+		AA6CB1041CE31505005F0A35 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA6CB1021CE31505005F0A35 /* LaunchScreen.storyboard */; };
+		AA6CB10F1CE31505005F0A35 /* IPv6TestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AA6CB10E1CE31505005F0A35 /* IPv6TestTests.m */; };
+		AA6CB11A1CE31505005F0A35 /* IPv6TestUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = AA6CB1191CE31505005F0A35 /* IPv6TestUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AA6CB10B1CE31505005F0A35 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AA6CB0E91CE31505005F0A35 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AA6CB0F01CE31505005F0A35;
+			remoteInfo = IPv6Test;
+		};
+		AA6CB1161CE31505005F0A35 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AA6CB0E91CE31505005F0A35 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AA6CB0F01CE31505005F0A35;
+			remoteInfo = IPv6Test;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		20D82375BAC7E599AB61DCD6 /* Pods-IPv6TestUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IPv6TestUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-IPv6TestUITests/Pods-IPv6TestUITests.release.xcconfig"; sourceTree = "<group>"; };
+		29E0F97D391C5D7BBF8CB3AB /* Pods-IPv6TestTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IPv6TestTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-IPv6TestTests/Pods-IPv6TestTests.debug.xcconfig"; sourceTree = "<group>"; };
+		528B8B1FD1BEB9E14F3299FD /* Pods-IPv6Test.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IPv6Test.release.xcconfig"; path = "Pods/Target Support Files/Pods-IPv6Test/Pods-IPv6Test.release.xcconfig"; sourceTree = "<group>"; };
+		631CF58ECCA42A3FBB887201 /* Pods-IPv6Test.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IPv6Test.debug.xcconfig"; path = "Pods/Target Support Files/Pods-IPv6Test/Pods-IPv6Test.debug.xcconfig"; sourceTree = "<group>"; };
+		66881A2BDAE5A6117E5DC261 /* Pods-IPv6TestTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IPv6TestTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-IPv6TestTests/Pods-IPv6TestTests.release.xcconfig"; sourceTree = "<group>"; };
+		AA5580D21CF2AB7100A8DF8E /* IPv6.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IPv6.pch; sourceTree = "<group>"; };
+		AA6CB0F11CE31505005F0A35 /* IPv6Test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IPv6Test.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA6CB0F51CE31505005F0A35 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AA6CB0F71CE31505005F0A35 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		AA6CB0F81CE31505005F0A35 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		AA6CB0FA1CE31505005F0A35 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		AA6CB0FB1CE31505005F0A35 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		AA6CB0FE1CE31505005F0A35 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AA6CB1001CE31505005F0A35 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AA6CB1031CE31505005F0A35 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AA6CB1051CE31505005F0A35 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AA6CB10A1CE31505005F0A35 /* IPv6TestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IPv6TestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA6CB10E1CE31505005F0A35 /* IPv6TestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IPv6TestTests.m; sourceTree = "<group>"; };
+		AA6CB1101CE31505005F0A35 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AA6CB1151CE31505005F0A35 /* IPv6TestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IPv6TestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA6CB1191CE31505005F0A35 /* IPv6TestUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IPv6TestUITests.m; sourceTree = "<group>"; };
+		AA6CB11B1CE31505005F0A35 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AB3F819B311DDB805BE39A43 /* libPods-IPv6TestTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-IPv6TestTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D6678C79486BA38E8CC769B3 /* Pods-IPv6TestUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IPv6TestUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-IPv6TestUITests/Pods-IPv6TestUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		F1D6F4B1B3941CF69DECA578 /* libPods-IPv6TestUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-IPv6TestUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF6BB116C1DCC71C96BE61A1 /* libPods-IPv6Test.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-IPv6Test.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AA6CB0EE1CE31505005F0A35 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A96C3D4C91F9F598661A8E2 /* libPods-IPv6Test.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA6CB1071CE31505005F0A35 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				83CECB3E46BA1496B0D99A66 /* libPods-IPv6TestTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA6CB1121CE31505005F0A35 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				44FF16D8FCD63556EF628F80 /* libPods-IPv6TestUITests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		269085D4E838C981CD8B7AAB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				631CF58ECCA42A3FBB887201 /* Pods-IPv6Test.debug.xcconfig */,
+				528B8B1FD1BEB9E14F3299FD /* Pods-IPv6Test.release.xcconfig */,
+				29E0F97D391C5D7BBF8CB3AB /* Pods-IPv6TestTests.debug.xcconfig */,
+				66881A2BDAE5A6117E5DC261 /* Pods-IPv6TestTests.release.xcconfig */,
+				D6678C79486BA38E8CC769B3 /* Pods-IPv6TestUITests.debug.xcconfig */,
+				20D82375BAC7E599AB61DCD6 /* Pods-IPv6TestUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		AA6CB0E81CE31505005F0A35 = {
+			isa = PBXGroup;
+			children = (
+				AA6CB0F31CE31505005F0A35 /* IPv6Test */,
+				AA6CB10D1CE31505005F0A35 /* IPv6TestTests */,
+				AA6CB1181CE31505005F0A35 /* IPv6TestUITests */,
+				AA6CB0F21CE31505005F0A35 /* Products */,
+				269085D4E838C981CD8B7AAB /* Pods */,
+				B6C9BC0F7C190B67026581AB /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		AA6CB0F21CE31505005F0A35 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AA6CB0F11CE31505005F0A35 /* IPv6Test.app */,
+				AA6CB10A1CE31505005F0A35 /* IPv6TestTests.xctest */,
+				AA6CB1151CE31505005F0A35 /* IPv6TestUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AA6CB0F31CE31505005F0A35 /* IPv6Test */ = {
+			isa = PBXGroup;
+			children = (
+				AA6CB0F71CE31505005F0A35 /* AppDelegate.h */,
+				AA6CB0F81CE31505005F0A35 /* AppDelegate.m */,
+				AA6CB0FA1CE31505005F0A35 /* ViewController.h */,
+				AA6CB0FB1CE31505005F0A35 /* ViewController.m */,
+				AA6CB0FD1CE31505005F0A35 /* Main.storyboard */,
+				AA6CB1001CE31505005F0A35 /* Assets.xcassets */,
+				AA6CB1021CE31505005F0A35 /* LaunchScreen.storyboard */,
+				AA6CB1051CE31505005F0A35 /* Info.plist */,
+				AA6CB0F41CE31505005F0A35 /* Supporting Files */,
+			);
+			path = IPv6Test;
+			sourceTree = "<group>";
+		};
+		AA6CB0F41CE31505005F0A35 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AA6CB0F51CE31505005F0A35 /* main.m */,
+				AA5580D21CF2AB7100A8DF8E /* IPv6.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AA6CB10D1CE31505005F0A35 /* IPv6TestTests */ = {
+			isa = PBXGroup;
+			children = (
+				AA6CB10E1CE31505005F0A35 /* IPv6TestTests.m */,
+				AA6CB1101CE31505005F0A35 /* Info.plist */,
+			);
+			path = IPv6TestTests;
+			sourceTree = "<group>";
+		};
+		AA6CB1181CE31505005F0A35 /* IPv6TestUITests */ = {
+			isa = PBXGroup;
+			children = (
+				AA6CB1191CE31505005F0A35 /* IPv6TestUITests.m */,
+				AA6CB11B1CE31505005F0A35 /* Info.plist */,
+			);
+			path = IPv6TestUITests;
+			sourceTree = "<group>";
+		};
+		B6C9BC0F7C190B67026581AB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FF6BB116C1DCC71C96BE61A1 /* libPods-IPv6Test.a */,
+				AB3F819B311DDB805BE39A43 /* libPods-IPv6TestTests.a */,
+				F1D6F4B1B3941CF69DECA578 /* libPods-IPv6TestUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AA6CB0F01CE31505005F0A35 /* IPv6Test */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AA6CB11E1CE31505005F0A35 /* Build configuration list for PBXNativeTarget "IPv6Test" */;
+			buildPhases = (
+				1E3D596E001DF26337083ABE /* 📦 Check Pods Manifest.lock */,
+				AA6CB0ED1CE31505005F0A35 /* Sources */,
+				AA6CB0EE1CE31505005F0A35 /* Frameworks */,
+				AA6CB0EF1CE31505005F0A35 /* Resources */,
+				8F9DD28A804B341F5CEEA712 /* 📦 Embed Pods Frameworks */,
+				3915847ED15D55AE38876735 /* 📦 Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = IPv6Test;
+			productName = IPv6Test;
+			productReference = AA6CB0F11CE31505005F0A35 /* IPv6Test.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AA6CB1091CE31505005F0A35 /* IPv6TestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AA6CB1211CE31505005F0A35 /* Build configuration list for PBXNativeTarget "IPv6TestTests" */;
+			buildPhases = (
+				2EDA5567F5155BCECEA0BAF9 /* 📦 Check Pods Manifest.lock */,
+				AA6CB1061CE31505005F0A35 /* Sources */,
+				AA6CB1071CE31505005F0A35 /* Frameworks */,
+				AA6CB1081CE31505005F0A35 /* Resources */,
+				BDC1410CCAFFFDE833565A89 /* 📦 Embed Pods Frameworks */,
+				F1B4B76111F0368F25317D9F /* 📦 Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AA6CB10C1CE31505005F0A35 /* PBXTargetDependency */,
+			);
+			name = IPv6TestTests;
+			productName = IPv6TestTests;
+			productReference = AA6CB10A1CE31505005F0A35 /* IPv6TestTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AA6CB1141CE31505005F0A35 /* IPv6TestUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AA6CB1241CE31505005F0A35 /* Build configuration list for PBXNativeTarget "IPv6TestUITests" */;
+			buildPhases = (
+				7EB32AD00C1AEAEFE59D51F1 /* 📦 Check Pods Manifest.lock */,
+				AA6CB1111CE31505005F0A35 /* Sources */,
+				AA6CB1121CE31505005F0A35 /* Frameworks */,
+				AA6CB1131CE31505005F0A35 /* Resources */,
+				0745ABB4E0BE34AC44B8E10E /* 📦 Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AA6CB1171CE31505005F0A35 /* PBXTargetDependency */,
+			);
+			name = IPv6TestUITests;
+			productName = IPv6TestUITests;
+			productReference = AA6CB1151CE31505005F0A35 /* IPv6TestUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AA6CB0E91CE31505005F0A35 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "杨天礼";
+				TargetAttributes = {
+					AA6CB0F01CE31505005F0A35 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					AA6CB1091CE31505005F0A35 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = AA6CB0F01CE31505005F0A35;
+					};
+					AA6CB1141CE31505005F0A35 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = AA6CB0F01CE31505005F0A35;
+					};
+				};
+			};
+			buildConfigurationList = AA6CB0EC1CE31505005F0A35 /* Build configuration list for PBXProject "IPv6Test" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AA6CB0E81CE31505005F0A35;
+			productRefGroup = AA6CB0F21CE31505005F0A35 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AA6CB0F01CE31505005F0A35 /* IPv6Test */,
+				AA6CB1091CE31505005F0A35 /* IPv6TestTests */,
+				AA6CB1141CE31505005F0A35 /* IPv6TestUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AA6CB0EF1CE31505005F0A35 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA6CB1041CE31505005F0A35 /* LaunchScreen.storyboard in Resources */,
+				AA6CB1011CE31505005F0A35 /* Assets.xcassets in Resources */,
+				AA6CB0FF1CE31505005F0A35 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA6CB1081CE31505005F0A35 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA6CB1131CE31505005F0A35 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0745ABB4E0BE34AC44B8E10E /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-IPv6TestUITests/Pods-IPv6TestUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1E3D596E001DF26337083ABE /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		2EDA5567F5155BCECEA0BAF9 /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		3915847ED15D55AE38876735 /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-IPv6Test/Pods-IPv6Test-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7EB32AD00C1AEAEFE59D51F1 /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		8F9DD28A804B341F5CEEA712 /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-IPv6Test/Pods-IPv6Test-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BDC1410CCAFFFDE833565A89 /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-IPv6TestTests/Pods-IPv6TestTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F1B4B76111F0368F25317D9F /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-IPv6TestTests/Pods-IPv6TestTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AA6CB0ED1CE31505005F0A35 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA6CB0FC1CE31505005F0A35 /* ViewController.m in Sources */,
+				AA6CB0F91CE31505005F0A35 /* AppDelegate.m in Sources */,
+				AA6CB0F61CE31505005F0A35 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA6CB1061CE31505005F0A35 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA6CB10F1CE31505005F0A35 /* IPv6TestTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA6CB1111CE31505005F0A35 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA6CB11A1CE31505005F0A35 /* IPv6TestUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AA6CB10C1CE31505005F0A35 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AA6CB0F01CE31505005F0A35 /* IPv6Test */;
+			targetProxy = AA6CB10B1CE31505005F0A35 /* PBXContainerItemProxy */;
+		};
+		AA6CB1171CE31505005F0A35 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AA6CB0F01CE31505005F0A35 /* IPv6Test */;
+			targetProxy = AA6CB1161CE31505005F0A35 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AA6CB0FD1CE31505005F0A35 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AA6CB0FE1CE31505005F0A35 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AA6CB1021CE31505005F0A35 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AA6CB1031CE31505005F0A35 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AA6CB11C1CE31505005F0A35 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		AA6CB11D1CE31505005F0A35 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AA6CB11F1CE31505005F0A35 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 631CF58ECCA42A3FBB887201 /* Pods-IPv6Test.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = /Users/YLWX/Desktop/IPv6Test/IPv6Test/IPv6.pch;
+				INFOPLIST_FILE = IPv6Test/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Developer-YTL.IPv6Test";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		AA6CB1201CE31505005F0A35 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 528B8B1FD1BEB9E14F3299FD /* Pods-IPv6Test.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = /Users/YLWX/Desktop/IPv6Test/IPv6Test/IPv6.pch;
+				INFOPLIST_FILE = IPv6Test/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Developer-YTL.IPv6Test";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		AA6CB1221CE31505005F0A35 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 29E0F97D391C5D7BBF8CB3AB /* Pods-IPv6TestTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				GCC_PREFIX_HEADER = /Users/YLWX/Desktop/IPv6Test/IPv6Test/IPv6.pch;
+				INFOPLIST_FILE = IPv6TestTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Developer-YTL.IPv6TestTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/IPv6Test.app/IPv6Test";
+			};
+			name = Debug;
+		};
+		AA6CB1231CE31505005F0A35 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 66881A2BDAE5A6117E5DC261 /* Pods-IPv6TestTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				GCC_PREFIX_HEADER = /Users/YLWX/Desktop/IPv6Test/IPv6Test/IPv6.pch;
+				INFOPLIST_FILE = IPv6TestTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Developer-YTL.IPv6TestTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/IPv6Test.app/IPv6Test";
+			};
+			name = Release;
+		};
+		AA6CB1251CE31505005F0A35 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D6678C79486BA38E8CC769B3 /* Pods-IPv6TestUITests.debug.xcconfig */;
+			buildSettings = {
+				INFOPLIST_FILE = IPv6TestUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Developer-YTL.IPv6TestUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = IPv6Test;
+			};
+			name = Debug;
+		};
+		AA6CB1261CE31505005F0A35 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 20D82375BAC7E599AB61DCD6 /* Pods-IPv6TestUITests.release.xcconfig */;
+			buildSettings = {
+				INFOPLIST_FILE = IPv6TestUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Developer-YTL.IPv6TestUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = IPv6Test;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AA6CB0EC1CE31505005F0A35 /* Build configuration list for PBXProject "IPv6Test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA6CB11C1CE31505005F0A35 /* Debug */,
+				AA6CB11D1CE31505005F0A35 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AA6CB11E1CE31505005F0A35 /* Build configuration list for PBXNativeTarget "IPv6Test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA6CB11F1CE31505005F0A35 /* Debug */,
+				AA6CB1201CE31505005F0A35 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AA6CB1211CE31505005F0A35 /* Build configuration list for PBXNativeTarget "IPv6TestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA6CB1221CE31505005F0A35 /* Debug */,
+				AA6CB1231CE31505005F0A35 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AA6CB1241CE31505005F0A35 /* Build configuration list for PBXNativeTarget "IPv6TestUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA6CB1251CE31505005F0A35 /* Debug */,
+				AA6CB1261CE31505005F0A35 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AA6CB0E91CE31505005F0A35 /* Project object */;
+}
